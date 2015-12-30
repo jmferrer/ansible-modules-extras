@@ -44,7 +44,7 @@ options:
         - Description for the project
      required: false
      default: None
-   domain_id:
+   domain:
      description:
         - Domain id to create the project in if the cloud supports domains
      required: false
@@ -71,7 +71,7 @@ EXAMPLES = '''
     state: present
     name: demoproject
     description: demodescription
-    domain_id: demoid
+    domain: demoid
     enabled: True
 
 # Delete a project
